@@ -3,8 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 
 import '../../core/dataHelper/cache_helper.dart';
-import '../home/child/homepage.dart';
-import '../home/homescreen.dart';
+import '../home/presentation/homescreen.dart';
 
 
 class IntroScreen extends StatefulWidget {
