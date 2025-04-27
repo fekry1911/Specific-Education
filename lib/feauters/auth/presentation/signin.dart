@@ -6,12 +6,12 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:specific_education/feauters/auth/signup.dart';
+import 'package:specific_education/feauters/auth/presentation/signup.dart';
 
-import '../../core/dataHelper/cache_helper.dart';
-import '../constants/constants.dart';
-import '../home/child/homepage.dart';
-import '../home/homescreen.dart';
+import '../../../core/dataHelper/cache_helper.dart';
+import '../../constants/constants.dart';
+import '../../home/child/homepage.dart';
+import '../../home/homescreen.dart';
 
 class SignInScreen extends StatelessWidget{
   TextEditingController EmailControllr=TextEditingController();

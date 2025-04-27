@@ -7,9 +7,9 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:specific_education/feauters/auth/signin.dart';
+import 'package:specific_education/feauters/auth/presentation/signin.dart';
 
-import '../constants/constants.dart';
+import '../../constants/constants.dart';
 
 class SignUpScreen extends StatelessWidget{
   TextEditingController EmailControllr=TextEditingController();

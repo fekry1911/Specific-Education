@@ -2,9 +2,9 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:specific_education/feauters/auth/signin.dart';
+import 'package:specific_education/feauters/auth/presentation/signin.dart';
 
-import '../constants/constants.dart';
+import '../../constants/constants.dart';
 
 class WelcomeScreen extends StatelessWidget{
   const WelcomeScreen ({

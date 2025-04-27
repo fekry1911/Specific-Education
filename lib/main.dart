@@ -5,7 +5,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'core/cubit/homeCubit/cubit.dart';
 import 'core/dataHelper/cache_helper.dart';
 import 'core/dataHelper/localData.dart';
-import 'feauters/auth/registration.dart';
+import 'feauters/auth/presentation/registration.dart';
 import 'feauters/intro/introScreen.dart';
 import 'feauters/reuseable/fire.dart';
 
