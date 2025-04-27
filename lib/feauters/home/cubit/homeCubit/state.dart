@@ -1,6 +1,7 @@
 
 
-import '../../../feauters/models/studentmodel.dart';
+
+import '../../data/models/studentmodel.dart';
 
 abstract class UserState {
   const UserState();

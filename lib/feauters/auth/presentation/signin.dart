@@ -10,8 +10,7 @@ import 'package:specific_education/feauters/auth/presentation/signup.dart';
 
 import '../../../core/constants/constants.dart';
 import '../../../core/dataHelper/cache_helper.dart';
-import '../../home/child/homepage.dart';
-import '../../home/homescreen.dart';
+import '../../home/presentation/homescreen.dart';
 
 class SignInScreen extends StatelessWidget{
   TextEditingController EmailControllr=TextEditingController();

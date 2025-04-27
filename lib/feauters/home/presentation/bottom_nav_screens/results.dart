@@ -2,10 +2,10 @@ import 'package:conditional_builder_null_safety/conditional_builder_null_safety.
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../../../core/cubit/homeCubit/cubit.dart';
-import '../../../core/cubit/homeCubit/state.dart';
-import '../../models/studentmodel.dart';
-import '../../reuseable/reuse.dart';
+import '../../../../core/reuseable/reuse.dart';
+import '../../cubit/homeCubit/cubit.dart';
+import '../../cubit/homeCubit/state.dart';
+
 
 class HomeScreen extends StatelessWidget {
   final TextEditingController _nameController = TextEditingController();

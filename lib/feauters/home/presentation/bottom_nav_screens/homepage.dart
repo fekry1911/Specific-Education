@@ -1,14 +1,12 @@
 import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import '../../../../core/dataHelper/cache_helper.dart';
+import '../../../../core/reuseable/reuse.dart';
+import '../../cubit/homeCubit/cubit.dart';
+import '../../cubit/homeCubit/state.dart';
+import '../../data/models/studentmodel.dart';
 
-import '../../../core/cubit/homeCubit/cubit.dart';
-import '../../../core/cubit/homeCubit/state.dart';
-import '../../../core/dataHelper/cache_helper.dart';
-import '../../../core/dataHelper/localData.dart';
-import '../../doctors/presentation/doctors.dart';
-import '../../models/studentmodel.dart';
-import '../../reuseable/reuse.dart';
 
 
 

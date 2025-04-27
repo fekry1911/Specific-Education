@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/material.dart';
 
-import '../models/studentmodel.dart';
+import '../../feauters/home/data/models/studentmodel.dart';
+
 
 
 class AwesomeTextFormField extends StatelessWidget {

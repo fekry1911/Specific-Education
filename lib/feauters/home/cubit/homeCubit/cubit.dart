@@ -1,13 +1,15 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:specific_education/core/cubit/homeCubit/state.dart';
-import '../../../feauters/doctors/presentation/doctors.dart';
-import '../../../feauters/home/child/demo.dart';
-import '../../../feauters/home/child/homepage.dart';
-import '../../../feauters/home/child/results.dart';
-import '../../../feauters/models/studentmodel.dart';
-import '../../dataHelper/cache_helper.dart';
-import '../../dataHelper/localData.dart';
+import 'package:specific_education/feauters/home/cubit/homeCubit/state.dart';
+
+import '../../../../core/dataHelper/cache_helper.dart';
+import '../../../../core/dataHelper/localData.dart';
+import '../../../doctors/presentation/doctors.dart';
+import '../../data/models/studentmodel.dart';
+import '../../presentation/bottom_nav_screens/demo.dart';
+import '../../presentation/bottom_nav_screens/homepage.dart';
+import '../../presentation/bottom_nav_screens/results.dart';
+
 
 
 class UserCubit extends Cubit<UserState> {
