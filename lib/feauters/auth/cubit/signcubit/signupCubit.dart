@@ -5,10 +5,9 @@
 
 // Cubit للمصادقة
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:specific_education/core/cubit/signcubit/signupstate.dart';
+import 'package:specific_education/feauters/auth/cubit/signcubit/signupstate.dart';
+import '../../../../core/dataHelper/internetdata.dart';
 
-import '../../../feauters/models/authusermodel.dart';
-import '../../dataHelper/internetdata.dart';
 
 class AuthCubit extends Cubit<AuthState> {
   final FirebaseHelper authHelper;

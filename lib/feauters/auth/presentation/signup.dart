@@ -9,7 +9,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:specific_education/feauters/auth/presentation/signin.dart';
 
-import '../../constants/constants.dart';
+import '../../../core/constants/constants.dart';
 
 class SignUpScreen extends StatelessWidget{
   TextEditingController EmailControllr=TextEditingController();

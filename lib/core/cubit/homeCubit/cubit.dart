@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:specific_education/core/cubit/homeCubit/state.dart';
-import '../../../feauters/doctors/doctors.dart';
+import '../../../feauters/doctors/presentation/doctors.dart';
 import '../../../feauters/home/child/demo.dart';
 import '../../../feauters/home/child/homepage.dart';
 import '../../../feauters/home/child/results.dart';

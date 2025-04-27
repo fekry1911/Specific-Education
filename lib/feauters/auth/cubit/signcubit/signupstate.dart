@@ -1,4 +1,3 @@
-import '../../../feauters/models/authusermodel.dart';
 
 abstract class AuthState {
   const AuthState();

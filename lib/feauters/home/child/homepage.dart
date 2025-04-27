@@ -6,7 +6,7 @@ import '../../../core/cubit/homeCubit/cubit.dart';
 import '../../../core/cubit/homeCubit/state.dart';
 import '../../../core/dataHelper/cache_helper.dart';
 import '../../../core/dataHelper/localData.dart';
-import '../../doctors/doctors.dart';
+import '../../doctors/presentation/doctors.dart';
 import '../../models/studentmodel.dart';
 import '../../reuseable/reuse.dart';
 

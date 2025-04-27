@@ -2,12 +2,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../home/child/results.dart';
-import '../reuseable/reuse.dart';
-import 'detsils/dep2.dart';
-import 'detsils/dep3.dart';
-import 'detsils/dep4.dart';
-import 'detsils/doctors_details.dart';
+import '../../../core/reuseable/reuse.dart';
+import '../../departments/dep1/presentation/doctors_details.dart';
+import '../../departments/dep2/presentation/dep2.dart';
+import '../../departments/dep3/presentation/dep3.dart';
+import '../../departments/dep4/presentation/dep4.dart';
+import '../../home/child/results.dart';
 
 class Doctors extends StatelessWidget {
   const Doctors({Key? key}) : super(key: key);
